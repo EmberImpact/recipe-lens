@@ -1,0 +1,13 @@
+{
+  "name": "Recipe Lens",
+  "short_name": "Recipes",
+  "description": "Our family recipe box. Photograph a recipe and it's read out and saved.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef2ef",
+  "theme_color": "#1d6a50",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
