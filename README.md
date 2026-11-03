@@ -1,4 +1,4 @@
-# Recipe Lens (family web app)
+# The Ham Family Cookbook
 
 Photograph a recipe on your phone and Claude reads out the ingredients, timings and method. Everyone in the family shares one recipe box. Nobody needs a Claude account: there's one shared **family code** instead.
 

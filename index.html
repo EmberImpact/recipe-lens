@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Recipe Lens</title>
+<title>The Ham Family Cookbook</title>
 <meta name="description" content="Our family recipe box. Photograph a recipe and it's read out and saved.">
 <meta name="theme-color" content="#1d6a50" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101713" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Recipes">
+<meta name="apple-mobile-web-app-title" content="Ham Cookbook">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/icon.svg">
@@ -69,7 +69,7 @@ button { cursor: pointer; }
 /* ---- top bar ---- */
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px 10px; display: grid; gap: 10px; }
 .top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 40px; }
-.brand { font-family: var(--display); font-weight: 800; font-size: 22px; letter-spacing: -.015em; display: flex; align-items: center; gap: 8px; }
+.brand { font-family: var(--display); font-weight: 800; font-size: clamp(18px, 5vw, 22px); letter-spacing: -.015em; display: flex; align-items: center; gap: 8px; min-width: 0; line-height: 1.15; }
 .brand .ico { width: 26px; height: 26px; color: var(--accent); }
 .me { border: 0; background: var(--sunk); border-radius: 999px; padding: 4px 12px; font-size: 14px; font-weight: 700; color: var(--muted); }
 .back { background: none; border: 0; padding: 8px 0; font-weight: 700; color: var(--accent); display: inline-flex; align-items: center; gap: 6px; }
@@ -247,7 +247,7 @@ button { cursor: pointer; }
 <section class="gate" id="gate" hidden>
   <div class="mark"><svg class="ico"><use href="#i-cam"/></svg></div>
   <div>
-    <h1>Our recipe box</h1>
+    <h1>The Ham Family Cookbook</h1>
     <p>Snap a recipe from a book, card or magazine and it's read out and saved for the whole family.</p>
   </div>
   <form id="gateForm">
@@ -261,7 +261,7 @@ button { cursor: pointer; }
 <div class="wrap" id="app" hidden>
   <header class="top">
     <div class="top-row">
-      <div class="brand" id="brand"><svg class="ico"><use href="#i-cam"/></svg>Recipe Lens</div>
+      <div class="brand" id="brand"><svg class="ico"><use href="#i-cam"/></svg>The Ham Family Cookbook</div>
       <button class="back" id="backBtn" hidden><svg class="ico"><use href="#i-back"/></svg>Recipes</button>
       <button class="me" id="meBtn" title="Change name or sign out"></button>
     </div>

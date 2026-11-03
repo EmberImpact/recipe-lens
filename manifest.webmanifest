@@ -1,6 +1,6 @@
 {
-  "name": "Recipe Lens",
-  "short_name": "Recipes",
+  "name": "The Ham Family Cookbook",
+  "short_name": "Ham Cookbook",
   "description": "Our family recipe box. Photograph a recipe and it's read out and saved.",
   "start_url": "/",
   "display": "standalone",
